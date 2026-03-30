@@ -71,7 +71,7 @@ export default function Footer() {
 
       {/* Bottom line */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
-        © 2026 Swaran FinPro. All rights reserved.
+        © 2026 Dongre Financial Service. All rights reserved.
       </div>
     </footer>
   );
