@@ -26,7 +26,7 @@ export default function About() {
           
           {/* Small Tag */}
           <p className="text-yellow-500 font-semibold text-sm tracking-wide mb-3">
-            ABOUT SWARAN FINPRO
+            ABOUT DONGRE FINANCIAL SERVICE
           </p>
 
           {/* Heading */}
@@ -41,7 +41,7 @@ export default function About() {
           </p>
 
           <p className="mt-4 text-gray-600 leading-relaxed">
-            At Swaran FinPro, we believe investing should be simple, safe, and accessible for everyone. Whether you're starting your first SIP of ₹500 or managing a large portfolio, I'm here to guide you every step.
+            At Dongre Financial Service, we believe investing should be simple, safe, and accessible for everyone. Whether you're starting your first SIP of ₹500 or managing a large portfolio, I'm here to guide you every step.
           </p>
 
         </div>

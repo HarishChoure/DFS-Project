@@ -12,7 +12,7 @@ export default function Stats() {
     },
     {
       value: "200+",
-      label: "Happy Investors",
+      label: "Happy Clients",
       icon: "👥",
     },
     {

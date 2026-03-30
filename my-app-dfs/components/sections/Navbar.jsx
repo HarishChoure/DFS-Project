@@ -21,7 +21,6 @@ export default function Navbar() {
           <a href="#" className="hover:text-black transition">About</a>
           <a href="#" className="hover:text-black transition">Products</a>
           <a href="#" className="hover:text-black transition">Calculators</a>
-          <a href="#" className="hover:text-black transition">Blog</a>
           <a href="#" className="hover:text-black transition">Contact</a>
         </nav>
 
@@ -31,11 +30,6 @@ export default function Navbar() {
           {/* Call Button */}
           <button className="hidden sm:block border border-gray-300 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition">
             Call Now
-          </button>
-
-          {/* Login Button */}
-          <button className="bg-blue-900 text-white px-5 py-2 rounded-lg text-sm font-semibold hover:bg-blue-800 transition">
-            Login
           </button>
 
         </div>

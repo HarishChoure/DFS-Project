@@ -12,13 +12,7 @@ export default function CTA() {
         </p>
 
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
-          
-          {/* Primary */}
-          <button className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition">
-            📅 Schedule Now
-          </button>
 
-          {/* Secondary */}
           <button className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">
             Call Now →
           </button>

@@ -42,8 +42,8 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-3">Contact</h4>
           <ul className="space-y-3 text-gray-300 text-sm">
-            <li>📞 +91 99999 99999</li>
-            <li>✉️ info@swaranfinpro.com</li>
+            <li>📞 +91 8319400824</li>
+            <li>✉️ laxmandongre.in@gmail.com</li>
             <li>💬 WhatsApp Us</li>
             <li>📍 Pawar Colony, Borgaon, Sausar, MP 480106</li>
           </ul>

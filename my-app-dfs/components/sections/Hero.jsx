@@ -32,12 +32,6 @@ export default function Hero() {
         {/* 🔶 Buttons */}
         <div className="mt-8 flex flex-wrap gap-4">
           
-          {/* Primary Button */}
-          <button className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition">
-            📅 Book Free Call
-          </button>
-
-          {/* Secondary Button */}
           <button className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">
             Invest Now →
           </button>
