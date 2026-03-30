@@ -5,36 +5,42 @@ export default function Services() {
       desc: "Diversified equity, debt & hybrid funds for every goal.",
       icon: "📊",
       color: "bg-blue-100 text-blue-600",
+      id:"card-mutual-funds"
     },
     {
       title: "SIP",
       desc: "Systematic Investment Plans starting from just ₹500/month.",
       icon: "🔄",
       color: "bg-green-100 text-green-600",
+      id:"card-sip"
     },
     {
       title: "SWP",
       desc: "Regular income through Systematic Withdrawal Plans.",
       icon: "⬇️",
       color: "bg-purple-100 text-purple-600",
+      id:"card-swp"
     },
     {
       title: "Loan Against MF",
       desc: "Get instant liquidity without redeeming your investments.",
       icon: "🏦",
       color: "bg-orange-100 text-orange-600",
+      id:"card-loan-mf"
     },
     {
       title: "Insurance",
       desc: "Protect your family with term, health & life insurance.",
       icon: "🛡️",
       color: "bg-red-100 text-red-600",
+      id:"card-insurance"
     },
     {
       title: "NFO",
       desc: "Early access to New Fund Offers with expert analysis.",
       icon: "✨",
       color: "bg-cyan-100 text-cyan-600",
+      id:"nfo"
     },
   ];
 
@@ -62,8 +68,13 @@ export default function Services() {
           
           {services.map((item, i) => (
             <div
-              key={i}
-              className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition"
+            id={item.id}
+            key={i}
+            className="bg-white p-6 rounded-2xl shadow-sm 
+                        hover:shadow-lg 
+                        hover:-translate-y-3 
+                        hover:scale-105
+                        transition-all duration-300 ease-in-out cursor-pointer"
             >
               
               {/* Icon */}
@@ -72,7 +83,7 @@ export default function Services() {
               </div>
 
               {/* Title */}
-              <h3 className="mt-5 font-semibold text-gray-900 text-lg">
+              <h3 className="mt-5 font-semibold text-gray-900 text-lg hover:text-yellow-500">
                 {item.title}
               </h3>
 

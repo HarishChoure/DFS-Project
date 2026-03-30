@@ -10,15 +10,30 @@ import Footer from "@/components/sections/Footer"
 export default function Home() {
   return (
     <main className="bg-white text-gray-900">
-      <Navbar/>
-      <Hero/>
-      <Stats/>
-      <About/>
-      <Services/>
-      <Calculator/>
-      <Testimonials/>
-      <CTA/>
-      <Footer/>
+      <Navbar />
+
+      <section id="home" className="scroll-mt-24">
+        <Hero />
+      </section>
+
+      <Stats />
+
+      <section id="about" className="scroll-mt-24">
+        <About />
+      </section>
+
+      <section id="products" className="scroll-mt-24">
+        <Services />
+      </section>
+
+      <section id="calculators" className="scroll-mt-24">
+        <Calculator />
+      </section>
+      <CTA />
+      <Testimonials />
+      <section id="contact" className="scroll-mt-24">
+        <Footer />
+      </section>
     </main>
   );
 }

@@ -1,5 +1,5 @@
 "use client";
-
+import {openWhatsApp} from "@/utils/whatsapp"
 export default function Hero() {
   return (
     <section className="relative bg-[#0B1D3A] text-white overflow-hidden">
@@ -32,7 +32,7 @@ export default function Hero() {
         {/* 🔶 Buttons */}
         <div className="mt-8 flex flex-wrap gap-4">
           
-          <button className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">
+          <button onClick={openWhatsApp} className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-yellow-100 transition">
             Invest Now →
           </button>
 

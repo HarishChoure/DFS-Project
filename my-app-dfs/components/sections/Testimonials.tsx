@@ -42,8 +42,12 @@ export default function Testimonials() {
         {testimonials.map((item, i) => (
           <div
             key={i}
-            className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition relative"
-          >
+            className="bg-white p-6 rounded-2xl shadow-sm 
+                        hover:shadow-lg 
+                        hover:-translate-y-3 
+                        hover:scale-105
+                        transition-all duration-300 ease-in-out cursor-pointer"
+            >
             
             {/* Stars */}
             <div className="text-yellow-400 mb-4 text-sm">

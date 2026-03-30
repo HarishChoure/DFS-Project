@@ -13,9 +13,12 @@ export default function CTA() {
 
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
 
-          <button className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">
-            Call Now →
-          </button>
+          <a
+            href="tel:+918319400824"
+            className="hidden sm:block border border-gray-300 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 hover:text-black transition"
+            >
+            Call Now
+            </a>
 
         </div>
 

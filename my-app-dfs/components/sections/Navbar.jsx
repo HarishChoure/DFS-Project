@@ -17,20 +17,23 @@ export default function Navbar() {
 
         {/* 🔷 Nav Links */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
-          <a href="#" className="hover:text-black transition">Home</a>
-          <a href="#" className="hover:text-black transition">About</a>
-          <a href="#" className="hover:text-black transition">Products</a>
-          <a href="#" className="hover:text-black transition">Calculators</a>
-          <a href="#" className="hover:text-black transition">Contact</a>
+          <a href="#home" className="hover:text-black transition">Home</a>
+          <a href="#about" className="hover:text-black transition">About</a>
+          <a href="#products" className="hover:text-black transition">Products</a>
+          <a href="#calculators" className="hover:text-black transition">Calculators</a>
+          <a href="#contact" className="hover:text-black transition">Contact</a>
         </nav>
 
         {/* 🔷 Right Buttons */}
         <div className="flex items-center gap-3">
           
           {/* Call Button */}
-          <button className="hidden sm:block border border-gray-300 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition">
+          <a
+            href="tel:+918319400824"
+            className="hidden sm:block border border-gray-300 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition"
+            >
             Call Now
-          </button>
+            </a>
 
         </div>
       </div>

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import { openWhatsApp } from "@/utils/whatsapp";
 export default function Calculator() {
   const [monthly, setMonthly] = useState(5000);
   const [years, setYears] = useState(10);
@@ -173,7 +173,7 @@ export default function Calculator() {
           </div>
 
           {/* Button */}
-          <button className="mt-6 bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition">
+          <button onClick={openWhatsApp} className="mt-6 bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition">
             ₹ Start Investing
           </button>
 
