@@ -22,10 +22,10 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-3">Quick Links</h4>
           <ul className="space-y-2 text-gray-300 text-sm">
-            <li><a href="#about" className="hover:text-yellow-500 transition">About Us</a></li>
-            <li><a href="#products" className="hover:text-yellow-500 transition">Products</a></li>
-            <li><a href="#calculators" className="hover:text-yellow-500 transition">SIP Calculator</a></li>
-            <li><a href="#contact" className="hover:text-yellow-500 transition">Contact Us</a></li>    
+            <li><a href="#about" className="hover:text-white transition">About Us</a></li>
+            <li><a href="#products" className="hover:text-white transition">Products</a></li>
+            <li><a href="#calculators" className="hover:text-white transition">SIP Calculator</a></li>
+            <li><a href="#contact" className="hover:text-white transition">Contact Us</a></li>    
           </ul>
         </div>
 
@@ -33,17 +33,17 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-3">Services</h4>
           <ul className="space-y-2 text-gray-300 text-sm">
-            <li><a href="#card-mutual-funds" className="hover:text-white transition">
+            <li><a href="#products" className="hover:text-white transition">
                 Mutual Funds
                 </a></li>
-            <li> <a href="#card-sip" className="hover:text-white transition">
+            <li> <a href="#products" className="hover:text-white transition">
                 SIP Planning
                 </a></li>
-            <li><a href="#card-swp" className="hover:text-white transition">
+            <li><a href="#products" className="hover:text-white transition">
                 SWP Planning
                 </a></li>
-            <li>Insurance</li>
-            <li><a href="#card-loan-mf" className="hover:text-white transition">
+            <li><a href="#products" className="hover:text-white transition">Insurance</a></li>
+            <li><a href="#products" className="hover:text-white transition">
             Loan Against MF
             </a></li>
           </ul>
@@ -56,7 +56,10 @@ export default function Footer() {
             <li><a href="tel:+918319400824" className="hover:text-white transition">
                 📞 +91 8319400824
             </a></li>
-            <li>✉️ laxmandongre.in@gmail.com</li>
+            <li><a href="https://mail.google.com/mail/?view=cm&to=laxmandongre.in@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer">
+            ✉️ laxmandongre.in@gmail.com</a></li>
             <li> <button
                 onClick={openWhatsApp}
                 className="cursor-pointer hover:text-white transition"

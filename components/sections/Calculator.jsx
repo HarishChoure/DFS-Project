@@ -57,7 +57,7 @@ export default function Calculator() {
             <div className="flex justify-between text-sm font-medium">
               <span>Monthly Investment</span>
               <span className="text-yellow-600 font-semibold">
-                ₹{monthly.toLocaleString()}
+                ₹{monthly.toLocaleString("en-IN")}
               </span>
             </div>
 
@@ -152,21 +152,21 @@ export default function Calculator() {
             <div>
               <p className="text-gray-500 text-sm">Total Invested</p>
               <p className="text-xl font-semibold">
-                ₹{data.invested.toLocaleString()}
+                ₹{data.invested.toLocaleString("en-IN")}
               </p>
             </div>
 
             <div>
               <p className="text-gray-500 text-sm">Estimated Returns</p>
               <p className="text-xl font-semibold text-green-600">
-                ₹{data.returns.toLocaleString()}
+                ₹{data.returns.toLocaleString("en-IN")}
               </p>
             </div>
 
             <div>
               <p className="text-gray-500 text-sm">Total Corpus</p>
               <p className="text-3xl font-bold text-yellow-600">
-                ₹{data.total.toLocaleString()}
+                ₹{data.total.toLocaleString("en-IN")}
               </p>
             </div>
 

@@ -7,6 +7,7 @@ import Calculator from "@/components/sections/Calculator";
 import Testimonials from "@/components/sections/Testimonials";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer"
+import Companies from "@/components/sections/Companies"
 export default function Home() {
   return (
     <main className="bg-white text-gray-900">
@@ -17,6 +18,7 @@ export default function Home() {
       </section>
 
       <Stats />
+      <Companies/>
 
       <section id="about" className="scroll-mt-24">
         <About />
