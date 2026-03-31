@@ -1,6 +1,6 @@
 "use client";
 
-export default function Navbar() {
+export default function Navbar({openContact}) {
   return (
     <header className="w-full sticky top-0 z-50 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -21,7 +21,7 @@ export default function Navbar() {
           <a href="#about" className="hover:text-black transition">About</a>
           <a href="#products" className="hover:text-black transition">Products</a>
           <a href="#calculators" className="hover:text-black transition">Calculators</a>
-          <a href="#contact" className="hover:text-black transition">Contact</a>
+          <button onClick={openContact} className="hover:text-black transition">Contact</button>
         </nav>
 
         {/* 🔷 Right Buttons */}

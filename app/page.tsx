@@ -1,3 +1,4 @@
+"use client"
 import Navbar from "@/components/sections/Navbar";
 import Hero from "@/components/sections/Hero";
 import Stats from "@/components/sections/Stats";
@@ -6,13 +7,17 @@ import Services from "@/components/sections/Services";
 import Calculator from "@/components/sections/Calculator";
 import Testimonials from "@/components/sections/Testimonials";
 import CTA from "@/components/sections/CTA";
-import Footer from "@/components/sections/Footer"
-import Companies from "@/components/sections/Companies"
+import Footer from "@/components/sections/Footer";
+import Companies from "@/components/sections/Companies";
+import ContactModal from "@/components/sections/ContactModal";
+import { useState } from "react";
+
 export default function Home() {
+  const [isContactOpen, setIsContactOpen] = useState(false);
   return (
     <main className="bg-white text-gray-900">
-      <Navbar />
-
+      <Navbar openContact={()=> setIsContactOpen(true)}/>
+      <ContactModal open={isContactOpen} setOpen={setIsContactOpen}/>
       <section id="home" className="scroll-mt-24">
         <Hero />
       </section>
