@@ -9,15 +9,16 @@ import Testimonials from "@/components/sections/Testimonials";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 import Companies from "@/components/sections/Companies";
-import ContactModal from "@/components/sections/ContactModal";
-import { useState } from "react";
+import ContactSection from "@/components/sections/ContactSection";
+
 
 export default function Home() {
-  const [isContactOpen, setIsContactOpen] = useState(false);
+  
   return (
     <main className="bg-white text-gray-900">
-      <Navbar openContact={()=> setIsContactOpen(true)}/>
-      <ContactModal open={isContactOpen} setOpen={setIsContactOpen}/>
+      <Navbar/>
+      
+      
       <section id="home" className="scroll-mt-24">
         <Hero />
       </section>
@@ -38,9 +39,11 @@ export default function Home() {
       </section>
       <CTA />
       <Testimonials />
+      
       <section id="contact" className="scroll-mt-24">
-        <Footer />
+        <ContactSection/>
       </section>
+      <Footer/>
     </main>
   );
 }
