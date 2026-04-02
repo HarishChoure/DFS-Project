@@ -15,7 +15,7 @@ export default function CTA() {
 
           <a
             href="tel:+918319400824"
-            className="hidden sm:block border border-gray-300 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 hover:text-black transition"
+            className="block block border border-gray-300 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 hover:text-black transition"
             >
             Call Now
             </a>

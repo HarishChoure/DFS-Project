@@ -1,6 +1,10 @@
 "use client";
 import {openWhatsApp} from "@/utils/whatsapp"
+import {PopupModal} from "react-calendly";
+import {useState} from "react";
+
 export default function Hero() {
+  const[open, setOpen]=useState(false);
   return (
     <section className="relative bg-[#0B1D3A] text-white overflow-hidden">
       
@@ -31,10 +35,12 @@ export default function Hero() {
 
         {/* 🔶 Buttons */}
         <div className="mt-8 flex flex-wrap gap-4">
-          <button className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-yellow-100 transition">Schedule a 1:1 Meeting</button>
+          <button onClick={()=>setOpen(true)} className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-yellow-100 transition">Schedule a 1:1 Meeting</button>
           <button onClick={openWhatsApp} className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-yellow-100 transition">
             Invest Now →
           </button>
+
+        <PopupModal url="https://calendly.com/anshika19sh/30min" open={open} onModalClose={()=>setOpen(false)} rootElement={document.body}/>
 
         </div>
       </div>
