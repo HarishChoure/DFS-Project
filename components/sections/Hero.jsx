@@ -31,7 +31,7 @@ export default function Hero() {
 
         {/* 🔶 Buttons */}
         <div className="mt-8 flex flex-wrap gap-4">
-          
+          <button className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-yellow-100 transition">Schedule a 1:1 Meeting</button>
           <button onClick={openWhatsApp} className="bg-white text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-yellow-100 transition">
             Invest Now →
           </button>

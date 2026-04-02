@@ -10,7 +10,7 @@ import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 import Companies from "@/components/sections/Companies";
 import ContactSection from "@/components/sections/ContactSection";
-
+import WhatsAppFloat from "@/components/sections/WhatsAppFloat";
 
 export default function Home() {
   
@@ -43,6 +43,8 @@ export default function Home() {
       <section id="contact" className="scroll-mt-24">
         <ContactSection/>
       </section>
+
+      <WhatsAppFloat/>
       <Footer/>
     </main>
   );
